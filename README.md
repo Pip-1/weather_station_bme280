@@ -1,12 +1,18 @@
 ### Setup Raspberry  Pi
 Headless Setup of a Raspbery Pi Zero W:
 [Lutz's Tutorial on headless Setup](https://www.youtube.com/watch?v=hoy4x7MTA-o)
+
+[Imager from the Raspberry Pi Manufacturer](https://www.raspberrypi.com/software/) with which i mounted the default Raspi OS on an SD Card
+
 including finding out about your raspis IP-Adress with
      ping -4 raspberrypi
 
 You can transfer files easy via SCP:
 
     scp <source-file> <user>@<host_ip_address>:<path>
+    
+    
+
 
 
 ### Update Pi
