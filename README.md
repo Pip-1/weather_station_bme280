@@ -63,3 +63,12 @@ hint: look into model.py
 
 
 ### Setup Database with the Help of peewee:
+
+
+#### Settinn up Database with SQLite3
+actually creating a new db in the current dir <br>
+     sqlite3 dht.db
+     
+creating some tables:
+    CREATE TABLE readings (time DATETIME, sensor TEXT, temperature REAL, humidity REAL, pressure REAL);
+     
