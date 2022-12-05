@@ -7,7 +7,7 @@ Headless Setup of a Raspbery Pi Zero W:
 including finding out about your raspis IP-Adress with
      ping -4 raspberrypi
 
-You can transfer files easy via SCP:
+You can transfer files easy via SCP::
 
     scp <source-file> <user>@<host_ip_address>:<path>
     
