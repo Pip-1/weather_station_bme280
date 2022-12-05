@@ -71,4 +71,8 @@ actually creating a new db in the current dir <br>
      
 creating some tables:
     CREATE TABLE readings (time DATETIME, sensor TEXT, temperature REAL, humidity REAL, pressure REAL);
+    
+    
+#### Creating a Service on Linux/Raspberry Pi
+[How to from toms hardware under:](https://www.tomshardware.com/how-to/run-long-running-scripts-raspberry-pi)
      
